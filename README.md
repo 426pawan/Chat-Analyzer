@@ -29,7 +29,7 @@ Check out the deployed app here:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/samudra-07/Chat-Analyzer.git
+   git clone https://github.com/426pawan/Chat-Analyzer.git
    cd Chat-Analyzer
    ```
 
@@ -72,7 +72,6 @@ This app is deployed on Streamlit Community Cloud:
 ## 📂 Project Structure
 
 ```text
-Chat-Analyzer/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python packages
 ├── pages/              # (Optional) Streamlit multipage apps
@@ -96,5 +95,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*Built with 💬 by [samudra-07](https://github.com/samudra-07)*
+*Built with 💬 by [426pawan](https://github.com/426pawan)*
 
