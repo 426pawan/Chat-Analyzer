@@ -65,7 +65,7 @@ Check out the deployed app here:
 This app is deployed on Streamlit Community Cloud:
 
 1. Verify that your repository contains a valid `requirements.txt`.
-2. In your Streamlit Cloud dashboard, connect the GitHub repo `samudra-07/Chat-Analyzer`.
+2. In your Streamlit Cloud dashboard, connect the GitHub repo `426pawan/Chat-Analyzer`.
 3. Specify `app.py` as the entrypoint and click **Deploy**.
 4. Your live app URL will appear—share it with others!
 
