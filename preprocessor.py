@@ -35,13 +35,13 @@ def preprocess(data):
     messages_cleaned = []
 
     for message in df['user_message']:
-        entry = re.split(r'([\w\W]+?):\s', message)
+        entry = re.split(r'^([\w\W]+?):\s', message)
         if len(entry) > 2:
             users.append(entry[1])
             messages_cleaned.append(entry[2])
         else:
             users.append('group_notification')
-            messages_cleaned.append(entry[0])
+            messages_cleaned.append(entry[0].strip())
 
     df['users'] = users
     df['message'] = messages_cleaned
@@ -50,7 +50,9 @@ def preprocess(data):
     # Add date-related columns
     df['year'] = df['date'].dt.year
     df['month'] = df['date'].dt.month_name()
+    df['month_num'] = df['date'].dt.month
     df['day'] = df['date'].dt.day
+    df['day_name'] = df['date'].dt.day_name()
     df['hour'] = df['date'].dt.hour
     df['minute'] = df['date'].dt.minute
 
