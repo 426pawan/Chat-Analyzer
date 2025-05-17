@@ -6,7 +6,7 @@ A Streamlit-based application to analyze WhatsApp chat exports, providing insigh
 
 Check out the deployed app here:
 
-[https://chat-analyzer-jjnkgaz9odx5takqdfdqes.streamlit.app/](https://chat-analyzer-jjnkgaz9odx5takqdfdqes.streamlit.app/)
+[https://chat-analyzer-jjnkgaz9odx5takqdfdqes.streamlit.app/](https://chat-analyzer-z8kt.onrender.com)
 
 ## 📋 Table of Contents
 
